@@ -1,0 +1,235 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  list-style: none;  
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+.container{
+  margin:auto;
+  width:100%;
+}
+.part-1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center; 
+  width:100%; 
+
+}
+.name{
+  width:30%;
+  text-align: center;
+}
+ .name-1{
+  width:70%;
+display: flex;
+justify-content:space-evenly;
+} 
+.name-1 ul {
+   /* width:70%;  */
+  display: flex;
+  
+  /* justify-content: space-evenly;  */
+  
+}
+.name-1 ul li{
+  padding:0.5rem;
+}
+.name-1 ul li .kultra{
+text-decoration: none;
+color:black;
+}
+.kultra li{
+  border:1px solid black;
+  color:blue; 
+}
+.jorden-part1{
+  width:50%;
+ background-color:#7ecbfd;
+ padding:100px;
+ border-radius:0 0 15% 0;
+}
+.primary-report{
+  text-align: center;
+  background-color:blue;
+  width:50%;
+  border-radius: 0 0 0 5px;
+  position:relative;
+}
+.primary-report i{
+  font-size:60px;
+  position:absolute;
+ bottom:60px;
+}
+.primary-report img{
+  width:55%;
+  padding:30px;
+  border-radius: 0 0 0 5px;
+  
+
+}
+.jorden{
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  background-color: blue;
+  margin-top: 20px;
+  color:#fff
+}
+.jorden-part1 ul{
+  display:flex;
+  justify-content:space-evenly
+}
+.jorden-part1 ul li{
+  list-style: circle;
+  
+}
+.name h1{
+  font-size:20px;
+  font-family: 'Poppins', sans-serif;
+
+}
+.name-1 ul li{
+  font-size:18px;
+  font-family: 'Poppins', sans-serif;
+}
+.jorden-part1 p.hellow{
+  font-size:10px;
+
+}
+.jorden-part1 h1{
+  font-size:25px;
+  padding:4px;
+}
+.jorden-part1 h3{
+  font-size:15px;
+  padding:3px;
+}
+.jorden-part1 ul li{
+
+font-size:15px;
+padding:5px;
+}
+.jorden-part1 p.designer{
+  font-size:15px;
+  padding:6px;
+}
+.jorden-part1 .btn-primary{
+  font-size:10px;
+  padding:10px;
+
+}
+.btn-primary{
+  color:blue;
+}
+
+
+.help{
+
+}
+.help{
+  padding-bottom: 20px;
+}
+.time-two{
+  display:flex;
+  
+
+  
+}
+.icon{
+  padding-left: 120px;
+}
+.icon i{
+  display:inline-block;
+  padding:10px;
+}
+.follow{
+   padding:40px 0,0 100px; 
+}
+.container-part-1{
+  padding:40px 0 0 100px;
+  width:50%;
+}
+.years{
+  width:50%;
+  display:flex;
+  justify-content: space-evenly;
+ 
+  
+ 
+}
+.two-overall{
+  width:100%;
+  display:flex;
+  padding: 20px;
+}
+.years-1{
+  
+  border:2px solid blue;
+  padding:30px 30px 30px 10px ;
+  font-family: 'Open Sans', sans-serif;
+  width:18%;
+  background-color: blue;
+
+
+
+}
+.years-1 h1{
+font-size:30px;
+text-align:center;
+padding:5px;
+
+}
+.years-1 p{
+  font-size:15px;
+  text-align:center;
+  }
+
+.years-2{
+  width:18%;
+  
+  padding:30px 30px 30px 10px ;
+  border:2px solid aqua;
+  font-family: 'Open Sans', sans-serif;
+  background-color: aqua;
+}
+.years-2 h1{
+  font-size:30px;
+  text-align:center;
+  padding:5px;
+  
+  }
+  .years-2 p{
+    font-size:15px;
+    text-align:center;
+    }
+.years-3{
+  width:18%;
+  border:2px solid blue;
+  padding:30px;
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgb(94, 89, 89);
+}
+.years-3 h1{
+  font-size:30px;
+  text-align:center;
+  padding:5px;
+  
+  }
+  .years-3 p{
+    font-size:15px;
+    text-align:center;
+    }
+    .help span{
+      color:blue;
+    }
+    .ideas span{
+      color:lightcoral;
+    }
+
+
+
+
